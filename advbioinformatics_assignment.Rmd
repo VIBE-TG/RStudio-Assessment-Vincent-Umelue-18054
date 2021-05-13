@@ -33,7 +33,7 @@ for (x in 1:12) {
 # Task 3.4
 ```{r}
 library(ggplot2)
-ggplot(mtcars, aes(x=gear, y=mpg))
+ggplot(mtcars, aes(x=gear, y=mpg)) + geom_boxplot(fill='#A4A4A4', color="blue")
 ```
 
 
