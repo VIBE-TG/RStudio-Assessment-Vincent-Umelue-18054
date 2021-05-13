@@ -1,0 +1,33 @@
+---
+title: "Advanced Bioinformatics 2021 assessment"
+author: "Vincent Umelue 2002971"
+date: "5/4/2021"
+output: html_document
+---
+
+# Task 3.1
+```{r}
+sum(5:55)
+```
+
+# Task 3.2
+```{r}
+sumfun <- function(n) sum(5:n)
+sumfun(n=10)
+sumfun(n=20)
+sumfun(n=100)
+```
+
+# Task 3.3
+```{r}
+r <- 1
+first_num <- 1
+
+for (x in 1:12) {
+  print(r)
+  r <- r + first_num
+  first_num <- r - first_num
+}
+```
+
+
